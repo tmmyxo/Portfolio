@@ -575,9 +575,6 @@ ios {
   padding-right: 2px;
 }
 
-.features-list span {
-/*  color: #4f4f4f;*/
-}
 
 #frameworks-list {
   margin-top: 30px;
@@ -655,7 +652,6 @@ ios {
 }
 
 .footer-container {
-/*  background-color: #EBEBE8;*/
   margin-top: 60px;
 }
 
@@ -705,6 +701,16 @@ ios {
 .footer-container ul {
   color: black;
   text-align: center;
+}
+
+.flexslider {
+  touch-action: none;
+  pointer-events: none;
+}
+
+.btn-github {
+  touch-action: initial !important;
+  pointer-events: initial !important;
 }
 
 @media(min-width: 600px) {
